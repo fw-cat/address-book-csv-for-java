@@ -5,3 +5,6 @@ desktop.ini
 # npm
 package-lock.json
 node_modules
+
+# Java
+*.class
