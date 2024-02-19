@@ -1,6 +1,5 @@
 import java.util.Scanner;
 
-import jp.ac.ohara.AddressBook;
 import jp.ac.ohara.AddressBookManager;
 
 public class Main {
@@ -42,7 +41,9 @@ public class Main {
         System.out.print("住所を入力してください：：");
         String address = scanner.nextLine();
 
-        bookManager.add(new AddressBook(name, mailAddress, phoneNumber, address));
+        bookManager.add(new String[] {
+          name, mailAddress, phoneNumber, address
+        });
         System.out.println("追加が完了しました");
 
       } else if(menu == 4) {

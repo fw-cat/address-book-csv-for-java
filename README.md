@@ -9,7 +9,7 @@
 
 ## コンパイル - Javac
 ~~~sh
-$ javac jp/ac/ohara/*.java Main.jav
+$ javac jp/ac/ohara/*.java Main.java
 ~~~
 
 ## 実行 - Java

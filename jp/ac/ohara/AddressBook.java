@@ -21,7 +21,7 @@ public class AddressBook {
   }
 
   public String getCsvLine() {
-    return String.format("%s,%s,%s,%s",
+    return String.format("%s,%s,%s,%s\n",
       this.name,
       this.mailAddress,
       this.phoneNumber,

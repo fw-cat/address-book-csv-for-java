@@ -43,8 +43,8 @@ public class AddressBookManager {
     System.out.println("----------------------------");
   }
 
-  public void add(AddressBook address) {
-    this.addressesBooks.add(address);
+  public void add(String[] args) {
+    this.addressesBooks.add(new AddressBook(args));
   }
 
   public void delete(int index) {
